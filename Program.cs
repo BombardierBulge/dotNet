@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Globalization;
 
-namespace HelloWorld
+namespace FizzBuzz
 {
     class Program
     {
