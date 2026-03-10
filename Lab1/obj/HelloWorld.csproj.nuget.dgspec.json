@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/bocian/Projects/dotNET/HelloWorld/HelloWorld.csproj": {}
+    "/home/bocian/Projects/dotNET/dotNet/Lab1/HelloWorld.csproj": {}
   },
   "projects": {
-    "/home/bocian/Projects/dotNET/HelloWorld/HelloWorld.csproj": {
+    "/home/bocian/Projects/dotNET/dotNet/Lab1/HelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/bocian/Projects/dotNET/HelloWorld/HelloWorld.csproj",
+        "projectUniqueName": "/home/bocian/Projects/dotNET/dotNet/Lab1/HelloWorld.csproj",
         "projectName": "HelloWorld",
-        "projectPath": "/home/bocian/Projects/dotNET/HelloWorld/HelloWorld.csproj",
+        "projectPath": "/home/bocian/Projects/dotNET/dotNet/Lab1/HelloWorld.csproj",
         "packagesPath": "/home/bocian/.nuget/packages/",
-        "outputPath": "/home/bocian/Projects/dotNET/HelloWorld/obj/",
+        "outputPath": "/home/bocian/Projects/dotNET/dotNet/Lab1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/bocian/.nuget/NuGet/NuGet.Config"
