@@ -1,0 +1,15 @@
+/home/bocian/Projects/dotNET/dotNet/Lab2/bin/Debug/net10.0/HelloWorld
+/home/bocian/Projects/dotNET/dotNet/Lab2/bin/Debug/net10.0/HelloWorld.deps.json
+/home/bocian/Projects/dotNET/dotNet/Lab2/bin/Debug/net10.0/HelloWorld.runtimeconfig.json
+/home/bocian/Projects/dotNET/dotNet/Lab2/bin/Debug/net10.0/HelloWorld.dll
+/home/bocian/Projects/dotNET/dotNet/Lab2/bin/Debug/net10.0/HelloWorld.pdb
+/home/bocian/Projects/dotNET/dotNet/Lab2/obj/Debug/net10.0/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/home/bocian/Projects/dotNET/dotNet/Lab2/obj/Debug/net10.0/HelloWorld.AssemblyInfoInputs.cache
+/home/bocian/Projects/dotNET/dotNet/Lab2/obj/Debug/net10.0/HelloWorld.AssemblyInfo.cs
+/home/bocian/Projects/dotNET/dotNet/Lab2/obj/Debug/net10.0/HelloWorld.csproj.CoreCompileInputs.cache
+/home/bocian/Projects/dotNET/dotNet/Lab2/obj/Debug/net10.0/HelloWorld.sourcelink.json
+/home/bocian/Projects/dotNET/dotNet/Lab2/obj/Debug/net10.0/HelloWorld.dll
+/home/bocian/Projects/dotNET/dotNet/Lab2/obj/Debug/net10.0/refint/HelloWorld.dll
+/home/bocian/Projects/dotNET/dotNet/Lab2/obj/Debug/net10.0/HelloWorld.pdb
+/home/bocian/Projects/dotNET/dotNet/Lab2/obj/Debug/net10.0/HelloWorld.genruntimeconfig.cache
+/home/bocian/Projects/dotNET/dotNet/Lab2/obj/Debug/net10.0/ref/HelloWorld.dll
