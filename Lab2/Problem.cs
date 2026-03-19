@@ -32,7 +32,7 @@ namespace ProblemPlecakowy
             var posortowanePrzedmioty = Przedmioty.OrderByDescending(x => x.Stosunek).ToList();
             foreach (var przedmiot in posortowanePrzedmioty)
             {
-                if(wynik.CalaWaga + przedmiot.Waga <= capacity)
+                if(wynik.CalaWaga + przedmiot.Waga <= rozmiar)
                 {
                     wynik.ListaId.Add(przedmiot.Id);
                     wynik.CalaWaga+= przedmiot.Waga;
@@ -40,6 +40,14 @@ namespace ProblemPlecakowy
 
                 }
             }
+
+            return wynik;
         }
+        public override string ToString()
+        {
+           
+            return string.Join(Environment.NewLine, Przedmioty.Select(x => x.ToString()));
+        }
+
     }
 }

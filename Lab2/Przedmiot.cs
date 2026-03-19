@@ -8,7 +8,7 @@ namespace ProblemPlecakowy
         public int Wartosc;
         public int Waga;
         
-        public doulbe Stosunek => (double)Wartosc / Waga;
+        public double Stosunek => (double)Wartosc / Waga;
 
         public override string ToString()
         {

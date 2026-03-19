@@ -1,9 +1,9 @@
 using System.Text;
 namespace ProblemPlecakowy
 {
-    internal class Problem
+    internal class Plecak
     { 
-        public List<int> ListaId => new List<int>();
+        public List<int> ListaId { set; get; } = new List<int>();
         public int CalaWartosc;
         public int CalaWaga;
         public override string ToString()
