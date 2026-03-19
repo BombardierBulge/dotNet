@@ -1,0 +1,15 @@
+/home/bocian/Projects/dotNET/dotNet/Lab2/ConsoleApp/bin/Debug/net10.0/ConsoleApp
+/home/bocian/Projects/dotNET/dotNet/Lab2/ConsoleApp/bin/Debug/net10.0/ConsoleApp.deps.json
+/home/bocian/Projects/dotNET/dotNet/Lab2/ConsoleApp/bin/Debug/net10.0/ConsoleApp.runtimeconfig.json
+/home/bocian/Projects/dotNET/dotNet/Lab2/ConsoleApp/bin/Debug/net10.0/ConsoleApp.dll
+/home/bocian/Projects/dotNET/dotNet/Lab2/ConsoleApp/bin/Debug/net10.0/ConsoleApp.pdb
+/home/bocian/Projects/dotNET/dotNet/Lab2/ConsoleApp/obj/Debug/net10.0/ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/bocian/Projects/dotNET/dotNet/Lab2/ConsoleApp/obj/Debug/net10.0/ConsoleApp.AssemblyInfoInputs.cache
+/home/bocian/Projects/dotNET/dotNet/Lab2/ConsoleApp/obj/Debug/net10.0/ConsoleApp.AssemblyInfo.cs
+/home/bocian/Projects/dotNET/dotNet/Lab2/ConsoleApp/obj/Debug/net10.0/ConsoleApp.csproj.CoreCompileInputs.cache
+/home/bocian/Projects/dotNET/dotNet/Lab2/ConsoleApp/obj/Debug/net10.0/ConsoleApp.sourcelink.json
+/home/bocian/Projects/dotNET/dotNet/Lab2/ConsoleApp/obj/Debug/net10.0/ConsoleApp.dll
+/home/bocian/Projects/dotNET/dotNet/Lab2/ConsoleApp/obj/Debug/net10.0/refint/ConsoleApp.dll
+/home/bocian/Projects/dotNET/dotNet/Lab2/ConsoleApp/obj/Debug/net10.0/ConsoleApp.pdb
+/home/bocian/Projects/dotNET/dotNet/Lab2/ConsoleApp/obj/Debug/net10.0/ConsoleApp.genruntimeconfig.cache
+/home/bocian/Projects/dotNET/dotNet/Lab2/ConsoleApp/obj/Debug/net10.0/ref/ConsoleApp.dll
