@@ -9,7 +9,7 @@ namespace ProblemPlecakowy
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine($"Przedmioty:{string.Join(" ",ListaId)}");
+            sb.AppendLine($"ID Przedmiotow:{string.Join(" ",ListaId)}");
             sb.AppendLine($"Waga:{string.Join(" ",CalaWaga)}");
             sb.AppendLine($"Wartosc:{string.Join(" ",CalaWartosc)}");
             return sb.ToString();

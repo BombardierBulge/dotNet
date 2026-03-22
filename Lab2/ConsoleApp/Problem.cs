@@ -4,7 +4,7 @@ using ProblemPlecakowy;
 using System.Runtime.CompilerServices;
 
 [assembly: InternalsVisibleTo("TestinngApp")]
-
+[assembly: InternalsVisibleTo("WindowApp")]
 
 namespace ProblemPlecakowy
 {
