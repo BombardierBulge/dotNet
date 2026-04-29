@@ -1,0 +1,31 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="using:WalutyGUI"
+        x:Class="WalutyGUI.MainWindow"
+        Title="Przeglądarka Kursów Walut" Width="400" Height="500">
+    
+    <StackPanel Margin="20" Spacing="10">
+        <TextBlock Text="Podaj datę (RRRR-MM-DD):" FontWeight="Bold"/>
+        <TextBox Name="DateInput" Text="2025-01-01"/>
+        
+        <Button Content="Pobierz Kursy" 
+                Click="OnGetRatesClick" 
+                HorizontalAlignment="Stretch" 
+                HorizontalContentAlignment="Center"/>
+        
+        <Separator/>
+        
+        <TextBlock Name="StatusLabel" Text="Status: Oczekiwanie..." FontStyle="Italic"/>
+        
+        <ListBox Name="RatesList" Height="300">
+            <ListBox.ItemTemplate>
+                <DataTemplate DataType="local:RateValue">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding CurrencyCode}" FontWeight="Bold" Width="50"/>
+                        <TextBlock Text="{Binding Value}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </StackPanel>
+</Window>

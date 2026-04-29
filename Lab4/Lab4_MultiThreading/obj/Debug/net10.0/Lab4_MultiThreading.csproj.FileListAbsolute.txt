@@ -1,0 +1,15 @@
+/home/bocian/Projects/dotNET/dotNet/Lab4/Lab4_MultiThreading/bin/Debug/net10.0/Lab4_MultiThreading
+/home/bocian/Projects/dotNET/dotNet/Lab4/Lab4_MultiThreading/bin/Debug/net10.0/Lab4_MultiThreading.deps.json
+/home/bocian/Projects/dotNET/dotNet/Lab4/Lab4_MultiThreading/bin/Debug/net10.0/Lab4_MultiThreading.runtimeconfig.json
+/home/bocian/Projects/dotNET/dotNet/Lab4/Lab4_MultiThreading/bin/Debug/net10.0/Lab4_MultiThreading.dll
+/home/bocian/Projects/dotNET/dotNet/Lab4/Lab4_MultiThreading/bin/Debug/net10.0/Lab4_MultiThreading.pdb
+/home/bocian/Projects/dotNET/dotNet/Lab4/Lab4_MultiThreading/obj/Debug/net10.0/Lab4_MultiThreading.GeneratedMSBuildEditorConfig.editorconfig
+/home/bocian/Projects/dotNET/dotNet/Lab4/Lab4_MultiThreading/obj/Debug/net10.0/Lab4_MultiThreading.AssemblyInfoInputs.cache
+/home/bocian/Projects/dotNET/dotNet/Lab4/Lab4_MultiThreading/obj/Debug/net10.0/Lab4_MultiThreading.AssemblyInfo.cs
+/home/bocian/Projects/dotNET/dotNet/Lab4/Lab4_MultiThreading/obj/Debug/net10.0/Lab4_MultiThreading.csproj.CoreCompileInputs.cache
+/home/bocian/Projects/dotNET/dotNet/Lab4/Lab4_MultiThreading/obj/Debug/net10.0/Lab4_MultiThreading.sourcelink.json
+/home/bocian/Projects/dotNET/dotNet/Lab4/Lab4_MultiThreading/obj/Debug/net10.0/Lab4_MultiThreading.dll
+/home/bocian/Projects/dotNET/dotNet/Lab4/Lab4_MultiThreading/obj/Debug/net10.0/refint/Lab4_MultiThreading.dll
+/home/bocian/Projects/dotNET/dotNet/Lab4/Lab4_MultiThreading/obj/Debug/net10.0/Lab4_MultiThreading.pdb
+/home/bocian/Projects/dotNET/dotNet/Lab4/Lab4_MultiThreading/obj/Debug/net10.0/Lab4_MultiThreading.genruntimeconfig.cache
+/home/bocian/Projects/dotNET/dotNet/Lab4/Lab4_MultiThreading/obj/Debug/net10.0/ref/Lab4_MultiThreading.dll

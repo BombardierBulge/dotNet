@@ -1,0 +1,32 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="using:Lab3_Avalonia"
+        x:Class="Lab3_Avalonia.MainWindow"
+        Title="Przetwarzanie Równoległe Obrazów" Width="950" Height="750">
+    
+    <DockPanel Margin="15">
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Spacing="15" Margin="0,0,0,15">
+            <Button Name="BtnLoad" Content="Wczytaj Obraz (.jpg)" Padding="10,5"/>
+            <Button Name="BtnProcess" Content="Uruchom Filtry (Parallel.Invoke)" Padding="10,5"/>
+            <TextBlock Name="TxtStatus" VerticalAlignment="Center" FontWeight="Bold" Foreground="Gray"/>
+        </StackPanel>
+
+        <UniformGrid Columns="3" Rows="2">
+            <Border BorderBrush="LightGray" BorderThickness="1" Margin="5">
+                <StackPanel><TextBlock Text="ORYGINAŁ" HorizontalAlignment="Center" Margin="5"/><Image Name="ImgOrig" Height="280" Stretch="Uniform"/></StackPanel>
+            </Border>
+            <Border BorderBrush="LightGray" BorderThickness="1" Margin="5">
+                <StackPanel><TextBlock Text="NEGATYW" HorizontalAlignment="Center" Margin="5"/><Image Name="ImgNeg" Height="280" Stretch="Uniform"/></StackPanel>
+            </Border>
+            <Border BorderBrush="LightGray" BorderThickness="1" Margin="5">
+                <StackPanel><TextBlock Text="SKALA SZAROŚCI" HorizontalAlignment="Center" Margin="5"/><Image Name="ImgGray" Height="280" Stretch="Uniform"/></StackPanel>
+            </Border>
+            <Border BorderBrush="LightGray" BorderThickness="1" Margin="5">
+                <StackPanel><TextBlock Text="PROGOWANIE" HorizontalAlignment="Center" Margin="5"/><Image Name="ImgThresh" Height="280" Stretch="Uniform"/></StackPanel>
+            </Border>
+            <Border BorderBrush="LightGray" BorderThickness="1" Margin="5">
+                <StackPanel><TextBlock Text="TYLKO ZIELONY" HorizontalAlignment="Center" Margin="5"/><Image Name="ImgGreen" Height="280" Stretch="Uniform"/></StackPanel>
+            </Border>
+        </UniformGrid>
+    </DockPanel>
+</Window>
