@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AR1Lz42Uly0=",
+  "success": true,
+  "projectFilePath": "/home/bocian/Projects/dotNET/dotNet/Lab5/MojaAplikacjaBlazor/MojaAplikacjaBlazor.csproj",
+  "expectedPackageFiles": [
+    "/home/bocian/.nuget/packages/microsoft.aspnetcore.app.internal.assets/10.0.4/microsoft.aspnetcore.app.internal.assets.10.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
