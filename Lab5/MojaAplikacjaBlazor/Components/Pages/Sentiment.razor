@@ -1,0 +1,51 @@
+@page "/sentiment"
+@rendermode InteractiveServer
+@using Microsoft.Extensions.ML
+@using MLModel.Model
+@inject PredictionEnginePool<ModelInput, ModelOutput> PredictionPool
+
+<PageTitle>Analiza Nastroju</PageTitle>
+
+<h1>Sprawdź emocje w tekście</h1>
+<p>Napisz coś po angielsku, a sztuczna inteligencja oceni Twój nastrój!</p>
+
+<div class="mb-3">
+    <textarea class="form-control" @bind="userInput" @bind:event="oninput" rows="4" placeholder="Wpisz tekst, np. I had a wonderful day!"></textarea>
+</div>
+
+<div class="mb-3">
+    <button class="btn btn-primary me-2" @onclick="AnalyzeSentiment">Analizuj nastrój</button>
+    <button class="btn btn-secondary" @onclick="ResetForm">Odśwież / Wyczyść</button>
+</div>
+
+@if (prediction != null)
+{
+    <div class="alert alert-info mt-4">
+        <h4>Wynik analizy:</h4>
+        <p>Przewidziany nastrój: <strong>@prediction.Prediction</strong></p>
+    </div>
+}
+
+@code {
+    private string userInput = "";
+    private ModelOutput? prediction;
+
+    private void AnalyzeSentiment()
+    {
+        if (!string.IsNullOrWhiteSpace(userInput))
+        {
+            var input = new ModelInput { Text = userInput }; 
+            prediction = PredictionPool.Predict(input);
+        }
+        else
+        {
+            prediction = null; 
+        }
+    }
+
+    private void ResetForm()
+    {
+        userInput = "";
+        prediction = null;
+    }
+}

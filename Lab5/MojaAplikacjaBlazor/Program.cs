@@ -1,8 +1,11 @@
 using MojaAplikacjaBlazor.Components;
-
+using Microsoft.Extensions.ML;
+using MLModel.Model;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddPredictionEnginePool<ModelInput, ModelOutput>()
+    .FromFile("MLModel.zip");
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 

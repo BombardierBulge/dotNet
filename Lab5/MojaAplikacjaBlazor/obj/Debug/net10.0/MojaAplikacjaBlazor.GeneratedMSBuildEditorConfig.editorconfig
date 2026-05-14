@@ -42,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ob3RGb3VuZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/bocian/Projects/dotNET/dotNet/Lab5/MojaAplikacjaBlazor/Components/Pages/Sentiment.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9TZW50aW1lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/bocian/Projects/dotNET/dotNet/Lab5/MojaAplikacjaBlazor/Components/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9XZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
